@@ -1,0 +1,11 @@
+CRIAR DATABASE PELO 'SEQUELIZE'
+    yarn sequelize db:create
+
+GERAR ARQUIVO MIGRATION
+    yarn sequelize migration:create --name=create-users
+
+GERAR TABELAS DO MIGRATE
+    yarn sequelize db:migrate
+
+REVERTE O ULTIMO MIGRATE
+    yarn sequelize db:migrate:undo
